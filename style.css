@@ -2,6 +2,7 @@
             Google font-family
 ---------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 /*----------------------------------------
             Common css
 ---------------------------------------- */
@@ -24,12 +25,13 @@
     font-weight: 500;
     margin: 20px 0 5px 0;
 }
+
 /*----------------------------------------
             cv area
 ---------------------------------------- */
 .cv-area{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: 73px;
 }
@@ -49,9 +51,7 @@
     object-fit: cover;
     border-radius: 100%;
 }
-.personal-info-box{
-    
-}
+
 .personal-info-box>h5{
     font-size: 16px;
     font-weight: 500;
@@ -68,9 +68,7 @@
     font-weight: 300;
     text-decoration: none;
 }
-.education-info{
-}
-
+/*---------- education info ----------*/
 .education-info>p:first-child{
     margin-top: 15px;
 }
@@ -79,6 +77,7 @@
     font-size: 16px;
     font-weight: 500;
 }
+/*---------- language info ----------*/
 .language-info{
     margin-top: 15px;
 }
@@ -86,4 +85,72 @@
     font-size: 16px;
     font-weight: 400;
     margin: 7px 0;
+}
+
+/*----------------------------------------
+            main content body
+---------------------------------------- */
+.top-heading{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about-me{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+/*---------- skills ----------*/
+.skills-area{
+    margin-top: 5px;
+}
+.skills{
+    display: flex;
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.skills>li{
+    list-style: none;
+    width: 100px;
+}
+/*---------- project ----------*/
+.project{
+    padding-top: 5px;
+}
+.project-heading{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.project-link{
+    display: flex;
+    gap: 10px;
+}
+.project-link>a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.project-description{
+    padding: 10px 0 0 20px;
+}
+.project-description>p{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.project-point{
+    padding: 0 0 0 20px;
+}
+.project-point>li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+/*---------- institution ----------*/
+.institution{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
 }
