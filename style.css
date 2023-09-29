@@ -18,6 +18,15 @@
     max-width: 1400px;
     margin: 0 auto;
 }
+
+.heading{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 5px 0;
+}
+/*----------------------------------------
+            cv area
+---------------------------------------- */
 .cv-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -39,4 +48,42 @@
     height: 300px;
     object-fit: cover;
     border-radius: 100%;
+}
+.personal-info-box{
+    
+}
+.personal-info-box>h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.personal-info-box>p,
+.education-info>p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.personal-info-box>p>a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.education-info{
+}
+
+.education-info>p:first-child{
+    margin-top: 15px;
+}
+
+.education-info>h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+.language-info{
+    margin-top: 15px;
+}
+.language-info>p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 7px 0;
 }
